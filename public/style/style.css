@@ -40,6 +40,7 @@ body{
   margin-top: 30px;
   width: 30%;
   text-align: center;
+  position: fixed;
 }
 
 #left-box{
@@ -62,20 +63,29 @@ body{
 
 
 #buttons{
-  margin-top: 12px;
+  margin-top: 10px;
   padding:18px;
+  /*padding-left: 30px;*/
 }
 
 img{
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 #signup{
   border:1px solid black;
   padding: 6px;
+  background-color: #E6E6FA;
 }
 
 #view{
   border:1px solid black;
   padding: 6px;
+  background-color: #E6E6FA;
+}
+
+#viewRoles{
+  border:1px solid black;
+  padding: 6px;
+  background-color: #E6E6FA;
 }

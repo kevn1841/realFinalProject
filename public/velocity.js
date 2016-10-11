@@ -44,4 +44,4 @@ setTimeout(showLeftBox, 8000);
 setTimeout(showMidBox, 10000);
 setTimeout(showRightBox, 12000);
 setTimeout(newH1, 14000);
-setTimeout(newH12, 15000);
+setTimeout(newH12, 14500);
