@@ -1,0 +1,64 @@
+.header {
+	text-align: center;
+	border:1px solid black;
+	background-color: #DCDCDC;
+	padding: 30px;
+}
+
+div.inline{
+	margin-left: 150px;
+}
+
+body{
+	background-image: url("https://d13yacurqjgara.cloudfront.net/users/247591/screenshots/2056282/btr-icon-pattern.png");
+}
+
+
+.outer-box1{
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(100, 100, 100); 
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.outer-box2{
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(100, 100, 100); 
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.outer-box3{
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(100, 100, 100); 
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+#left-box{
+  float: left;
+}
+
+#mid-box{
+	float: left;
+	width: 20%;
+	margin-left: 96px;
+}
+
+#right-box{
+  float:right;
+}
+
+#box-container{
+	margin: 0 20px;
+}
+
+.sign{
+	margin-right: 20px;
+}
