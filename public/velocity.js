@@ -30,6 +30,9 @@ function showRightBox(){
 
 function newH1(){
 	$('.header').velocity('transition.flipBounceYOut');
+}
+
+function newH12(){
 	$('.header').velocity('transition.flipBounceYIn');
 	document.getElementById('h1').innerHTML = "ActSpark reveals the most talented Actors/Actresses. Have fun searching for hidden talent!";
 }
@@ -41,3 +44,4 @@ setTimeout(showLeftBox, 8000);
 setTimeout(showMidBox, 10000);
 setTimeout(showRightBox, 12000);
 setTimeout(newH1, 14000);
+setTimeout(newH12, 15000);
