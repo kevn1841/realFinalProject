@@ -30,7 +30,6 @@ function Submit(){
 	document.getElementById("submit").style.visibility="visible";
 	$('#submit').velocity('transition.bounceLeftIn')
 }
-
 setTimeout(showHeader, 1000);
 setTimeout(Name, 4000);
 setTimeout(Location, 5500);
@@ -39,5 +38,3 @@ setTimeout(Phone, 8500);
 setTimeout(Img, 10000);
 setTimeout(Vid, 11500);
 setTimeout(Submit, 13000);
-
-

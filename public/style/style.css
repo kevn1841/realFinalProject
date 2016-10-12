@@ -6,16 +6,12 @@
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 5px;
 }
-
 div.inline{
 	margin-left: 150px;
 }
-
 body{
 	background-image: url("https://d13yacurqjgara.cloudfront.net/users/247591/screenshots/2056282/btr-icon-pattern.png");
 }
-
-
 .outer-box1{
   padding: 1em;
   background-color: rgb(255, 255, 255);
@@ -24,7 +20,6 @@ body{
   width: 30%;
   text-align: center;
 }
-
 .outer-box2{
   padding: 1em;
   background-color: rgb(255, 255, 255);
@@ -33,7 +28,6 @@ body{
   width: 30%;
   text-align: center;
 }
-
 .outer-box3{
   padding: 1em;
   background-color: rgb(255, 255, 255);
@@ -43,56 +37,45 @@ body{
   text-align: center;
   position: fixed;
 }
-
 #left-box{
   float: left;
 }
-
 #mid-box{
 	float: left;
 	width: 20%;
 	margin-left: 96px;
 }
-
 #right-box{
   float:right;
 }
-
 #box-container{
 	margin: 0 20px;
   border-radius: 5px;
 }
-
-
 #buttons{
   margin-top: 10px;
   padding:18px;
   /*padding-left: 30px;*/
   border-radius: 5px;
 }
-
 img{
   margin-top: 18px;
 }
-
 #signup{
   border:1px solid black;
   padding: 6px;
   background-color: #E6E6FA;
 }
-
 #view{
   border:1px solid black;
   padding: 6px;
   background-color: #E6E6FA;
 }
-
 #viewRoles{
   border:1px solid black;
   padding: 6px;
   background-color: #E6E6FA;
 }
-
 #main-container{
   border: 1px solid black;
   text-align: center;
@@ -100,7 +83,6 @@ img{
   margin-top: 10px;
   border-radius: 5px;
 }
-
 #formHeader{
   font-family: 'Open Sans Condensed', sans-serif;
   border: 1px solid black;

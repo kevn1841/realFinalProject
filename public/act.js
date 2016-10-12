@@ -7,9 +7,7 @@
     messagingSenderId: "68355017208"
   };
   firebase.initializeApp(config);
-
   var userInfo = firebase.database();
-
   $("#submitt").on("click", function(){
   	var actorName = $("#nameInput").val().trim();
   	var actorLocation = $("#locationInput").val().trim();
@@ -17,7 +15,6 @@
   	var actorNumber = $("#phoneInput").val().trim();
   	var actorPicURL = $("#imgInput").val().trim();
   	var actorVidURL = $("#vidInput").val().trim();
-
   	var newActor = {
   		name: actorName,
   		location: actorLocation,
@@ -26,15 +23,12 @@
   		img: actorPicURL,
   		vid: actorVidURL
   	}
-
   	userInfo.ref().push(newActor);
-
   $("#newTrainName").val("");
 	$("#newDestination").val("");
 	$("#newTrainTime").val("");
 	$("#newFrequency").val("");
   });
-
   userInfo.ref().on("child_added", function(childSnapshot, prevChildKey){
   	var tName = childSnapshot.val().name;
   	var tLocation = childSnapshot.val().location;
@@ -42,8 +36,5 @@
   	var tNumber = childSnapshot.val().number;
   	var tImg = childSnapshot.val().img;
   	var tVid = childSnapshot.val().vid;
-
 // $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
-
-
 });
