@@ -89,3 +89,22 @@ img{
   padding: 6px;
   background-color: #E6E6FA;
 }
+
+#main-container{
+  border: 1px solid black;
+  text-align: center;
+  background-color: #B0E0E6;
+  margin-top: 10px;
+}
+
+#formHeader{
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 1px solid black;
+  width: 800px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #E0FFFF;
+}
+.form-group{
+  margin-top: 10px;
+}
