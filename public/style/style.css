@@ -4,6 +4,7 @@
 	background-color: #DCDCDC;
 	padding: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 5px;
 }
 
 div.inline{
@@ -59,6 +60,7 @@ body{
 
 #box-container{
 	margin: 0 20px;
+  border-radius: 5px;
 }
 
 
@@ -66,6 +68,7 @@ body{
   margin-top: 10px;
   padding:18px;
   /*padding-left: 30px;*/
+  border-radius: 5px;
 }
 
 img{
@@ -95,6 +98,7 @@ img{
   text-align: center;
   background-color: #B0E0E6;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 #formHeader{
@@ -104,6 +108,7 @@ img{
   padding: 10px;
   margin-top: 10px;
   background-color: #E0FFFF;
+  border-radius: 5px;
 }
 .form-group{
   margin-top: 10px;
