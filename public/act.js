@@ -10,31 +10,30 @@
 
   var userInfo = firebase.database();
 
- //  $("#submit").on("click", function(){
- //  	var actorName = $("#newTrainName").val().trim();
- //  	var actorLocation = $("#newTrainName").val().trim();
- //  	var actorDescription = $("#newTrainName").val().trim();
- //  	var actorNumber = $("#newTrainName").val().trim();
- //  	var actorPicURL = $("#newTrainName").val().trim();
- //  	var actorVidURL = $("#newTrainName").val().trim();
+  $("#submitt").on("click", function(){
+  	var actorName = $("#nameInput").val().trim();
+  	var actorLocation = $("#locationInput").val().trim();
+  	var actorDescription = $("#bioInput").val().trim();
+  	var actorNumber = $("#phoneInput").val().trim();
+  	var actorPicURL = $("#imgInput").val().trim();
+  	var actorVidURL = $("#vidInput").val().trim();
 
- //  	var newActor = {
- //  		name: actorName,
- //  		location: actorLocation,
- //  		description: actorDescription,
- //  		number: actorNumber,
- //  		img: actorPicURL,
- //  		vid: actorVidURL
- //  	}
+  	var newActor = {
+  		name: actorName,
+  		location: actorLocation,
+  		description: actorDescription,
+  		number: actorNumber,
+  		img: actorPicURL,
+  		vid: actorVidURL
+  	}
 
- //  	userInfo.ref().push(newActor);
+  	userInfo.ref().push(newActor);
 
- //  $("#newTrainName").val("");
-	// $("#newDestination").val("");
-	// $("#newTrainTime").val("");
-	// $("#newFrequency").val("");
-	// return false
- //  });
+  $("#newTrainName").val("");
+	$("#newDestination").val("");
+	$("#newTrainTime").val("");
+	$("#newFrequency").val("");
+  });
 
   userInfo.ref().on("child_added", function(childSnapshot, prevChildKey){
   	var tName = childSnapshot.val().name;
@@ -44,7 +43,7 @@
   	var tImg = childSnapshot.val().img;
   	var tVid = childSnapshot.val().vid;
 
-$("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
+// $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
 
 
 });
