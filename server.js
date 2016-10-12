@@ -11,6 +11,9 @@ app.set('view engine', 'html');
 app.get('/form', function(req, res){
 	res.render('form')
 });
+app.get('/actors-actresses', function(req, res){
+	res.render('actorsactresses')
+});
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
