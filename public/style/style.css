@@ -76,6 +76,11 @@ img{
   padding: 6px;
   background-color: #E6E6FA;
 }
+#postRole{
+  border:1px solid black;
+  padding: 6px;
+  background-color: #E6E6FA;
+}
 #main-container{
   border: 1px solid black;
   text-align: center;

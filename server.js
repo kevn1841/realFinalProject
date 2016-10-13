@@ -14,6 +14,12 @@ app.get('/form', function(req, res){
 app.get('/actors-actresses', function(req, res){
 	res.render('actorsactresses')
 });
+app.get('/roles', function(req, res){
+	res.render('roles')
+});
+app.get('/create-role', function(req, res){
+	res.render('createrole')
+});
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
