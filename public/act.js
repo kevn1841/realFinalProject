@@ -36,7 +36,7 @@
     userImage.attr('src', tImg);
     userImage.attr('height', 200);
     userImage.attr('width', 200);
-$("#image").append(userImage);
+$("#tData").append("<tr><td>" + tName + "</td><td>" + tLocation + "</td><td>" + tDescription + "</td><td>" + tNumber + "</td><td>" + userImage + "</td></tr>");
 });
   var directorInfo = firebase.database();
   $("#Rsubmitt").on("click", function(){

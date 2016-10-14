@@ -55,7 +55,6 @@ body{
 #buttons{
   margin-top: 10px;
   padding:18px;
-  /*padding-left: 30px;*/
   border-radius: 5px;
 }
 img{
@@ -117,7 +116,6 @@ img{
   background-color: #778899;
   border-radius: 5px;
 }
-
 #userContainer{
   border: 1px solid black;
   text-align: center;
@@ -128,4 +126,12 @@ img{
 #image{
   float: left;
   border: 1px solid black;
+  text-align: center;
+}
+#mainn{
+  border: 1px solid black;
+  text-align: center;
+  background-color: #B0C4DE;
+  margin-top: 10px;
+  border-radius: 5px; 
 }
