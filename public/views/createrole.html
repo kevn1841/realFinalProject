@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Act Spark</title>
+			<link rel="stylesheet" type="text/css" href="style/style.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		</head>
+		<body>
+			<div class="nav-container">
+			    <div class="row nav-row">
+			      <div class="col-md-12">
+				<!--nav bar -->
+				    <nav class="navbar navbar-default">
+				      <div class="navbar-header">
+				        <a href="/"><img src="https://images.cooltext.com/4792598.png" width="184" height="52" alt="ActSpark"/></a>
+				      </div>
+				      <div id="buttons" class="navbar navbar-right">
+						<a id="signup" href="/form">Sign up</a><span> </span><span>|</span><span> </span><a id="view" href="/actors-actresses">View Actors/Actresses</a><span> </span><span>|</span><span> </span><a id="viewRoles" href="/roles">View Open Roles</a><span> </span><span>|</span><span> </span><a id="postRole" href="/create-role">Create a Role</a>
+				      </div>
+				    </nav>
+			      </div> <!--col-md-12"-->
+			    </div> <!--end row-->
+  			</div> <!--end nav-container-->
+  			<div class="container" id="roleContainer">
+  				<div class="container" id="roleHeader">
+  					<h1>//</h1>
+  				</div>
+	  			<div class="form-group" id="RName">
+					    <label for="email">Please Enter Your Name</label>
+					    <input type="text" class="form-control" placeholder="ex. Kevin Shukla" id="nameRole">
+				</div>
+	  			<div class="form-group" id="RLocation">
+					    <label for="email">Please Enter Your Location</label>
+					    <input type="text" class="form-control" placeholder="ex. Queens, New York" id="locationRole">
+				</div>
+	  			<div class="form-group" id="RDescription">
+					    <label for="email">Please Enter Your Role's Description</label>
+					    <input type="text" class="form-control" placeholder="ex. I am looking for someone who can play the role of a Cuban kingpin" id="descRole">
+				</div>
+	  			<div class="form-group" id="RPhone">
+					    <label for="email">Please Enter Your Phone Number</label>
+					    <input type="text" class="form-control" placeholder="ex. 848-248-8002" id="phoneRole">
+				</div>		
+	  			<div class="form-group" id="REmail">
+					    <label for="email">Please Enter Your Email Address</label>
+					    <input type="text" class="form-control" placeholder="ex. shukla.kevin0124@gmail.com" id="emailRole">
+				</div>
+			    <button type="submit" class="btn btn-primary" id="submit">Submit</button>								
+  			</div>
+  			<button type="submit" id="Rsubmitt">HIIII</button>
+	    	<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+			<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+			<script type="text/javascript" src="act.js"></script>
+			<script src="https:////cdnjs.cloudflare.com/ajax/libs/velocity/0.7.0/jquery.velocity.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/velocity/0.7.0/velocity.ui.min.js"></script>
+			<script src="../velocityRole.js"></script>
+			<script>
+				//Validation Goes HERE
+			</script>
+		</body>
+	</html>

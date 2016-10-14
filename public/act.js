@@ -24,10 +24,6 @@
   		vid: actorVidURL
   	}
   	userInfo.ref().push(newActor);
-  $("#newTrainName").val("");
-	$("#newDestination").val("");
-	$("#newTrainTime").val("");
-	$("#newFrequency").val("");
   });
   userInfo.ref().on("child_added", function(childSnapshot, prevChildKey){
   	var tName = childSnapshot.val().name;
@@ -36,5 +32,29 @@
   	var tNumber = childSnapshot.val().number;
   	var tImg = childSnapshot.val().img;
   	var tVid = childSnapshot.val().vid;
+// $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
+});
+  var directorInfo = firebase.database();
+  $("#Rsubmitt").on("click", function(){
+    var dirName = $("#nameRole").val().trim();
+    var dirLocation = $("#locationRole").val().trim();
+    var dirDescription = $("#descRole").val().trim();
+    var dirNumber = $("#phoneRole").val().trim();
+    var dirEmail = $("#emailRole").val().trim();
+    var newRole = {
+      Rname: dirName,
+      Rlocation: dirLocation,
+      Rdescription: dirDescription,
+      Rnumber: dirNumber,
+      Remail: dirEmail
+    }
+    directorInfo.ref().push(newRole);
+  });
+  directorInfo.ref().on("child_added", function(childSnapshot, prevChildKey){
+    var tRName = childSnapshot.val().Rname;
+    var tRLocation = childSnapshot.val().Rlocation;
+    var tRDescription = childSnapshot.val().Rdescription;
+    var tRNumber = childSnapshot.val().Rnumber;
+    var tREmail = childSnapshot.val().Remail;
 // $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
 });

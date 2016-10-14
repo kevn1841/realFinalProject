@@ -100,3 +100,20 @@ img{
 .form-group{
   margin-top: 10px;
 }
+#roleContainer{
+  border: 1px solid black;
+  text-align: center;
+  background-color: #B0C4DE;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #F5FFFA;
+}
+#roleHeader{
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 1px solid black;
+  width: 800px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #778899;
+  border-radius: 5px;
+}

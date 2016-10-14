@@ -30,10 +30,10 @@ function newH12(){
 	document.getElementById('h1').innerHTML = "ActSpark reveals the most talented Actors/Actresses. Have fun searching for hidden talent!";
 }
 setTimeout(showh1, 1000);
-setTimeout(fadeOuth1, 4000);
-setTimeout(showNewH1, 6000);
-setTimeout(showLeftBox, 8000);
-setTimeout(showMidBox, 10000);
-setTimeout(showRightBox, 12000);
-setTimeout(newH1, 14000);
-setTimeout(newH12, 14500);
+setTimeout(fadeOuth1, 3000);
+setTimeout(showNewH1, 4500);
+setTimeout(showLeftBox, 6000);
+setTimeout(showMidBox, 7500);
+setTimeout(showRightBox, 9000);
+setTimeout(newH1, 10500);
+setTimeout(newH12, 11000);
