@@ -51,12 +51,58 @@
   			<button style="display: none;" type="submit" id="Rsubmitt"></button>
 	    	<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
 			<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-			<script type="text/javascript" src="act.js"></script>
+			<script type="text/javascript" src="director.js"></script>
 			<script src="https:////cdnjs.cloudflare.com/ajax/libs/velocity/0.7.0/jquery.velocity.min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/velocity/0.7.0/velocity.ui.min.js"></script>
 			<script src="../velocityRole.js"></script>
 			<script>
-				//Validation Goes HERE
+				function clickSubmit(){
+	    			$("#submit").click(function(){
+				        checkName();
+				        return false;
+				    })
+				};
+				function checkName(){
+					if($("#nameRole").val().trim() == ""){
+	        			$("#nameRole").velocity('transition.perspectiveRightIn')
+	    			}else{
+	        			checkLocation();
+	   			 }
+				};
+				function checkLocation(){
+					if($("#locationRole").val().trim() == ""){
+	        			$("#locationRole").velocity('transition.perspectiveRightIn')
+	    			}else{
+					checkDescription();
+				}
+			};
+				function checkDescription(){
+					if($("#descRole").val().trim() == ""){
+	        			$("#descRole").velocity('transition.perspectiveRightIn')
+					}else{
+						checkNumber();
+					}
+				};
+				function checkNumber(){
+					if($("#phoneRole").val().trim() == ""){
+	        			$("#phoneRole").velocity('transition.perspectiveRightIn')
+					}else if(isNaN($("#phoneRole").val())){
+						$("#phoneRole").velocity('transition.perspectiveRightIn')
+					}else{
+						checkEmail();
+					}
+				};
+				function checkEmail(){
+					if($("#emailRole").val().trim() == ""){
+						$("#emailRole").velocity('transition.perspectiveRightIn')
+					}else{
+						triggerButton();
+					}
+				}
+				function triggerButton(){
+					$("#Rsubmitt").trigger("click");	
+				}
+				clickSubmit();
 			</script>
 		</body>
 	</html>

@@ -24,7 +24,7 @@ function Email(){
 }
 function Submit(){
 	document.getElementById("submit").style.visibility="visible";
-	$('#submit').velocity('transition.bounceLeftIn')
+	$('#submit').velocity('transition.bounceRightIn')
 }
 setTimeout(showHeader, 1000);
 setTimeout(Name, 4000);
@@ -32,4 +32,4 @@ setTimeout(Location, 5500);
 setTimeout(Bio, 7000);
 setTimeout(Phone, 8500);
 setTimeout(Email, 10000);
-setTimeout(Submit, 13000);
+setTimeout(Submit, 11500);
