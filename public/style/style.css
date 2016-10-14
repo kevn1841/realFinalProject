@@ -117,3 +117,12 @@ img{
   background-color: #778899;
   border-radius: 5px;
 }
+
+#tData{
+  border: 1px solid black;
+  text-align: center;
+  background-color: #B0C4DE;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #F5FFFA;  
+}

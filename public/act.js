@@ -32,7 +32,7 @@
   	var tNumber = childSnapshot.val().number;
   	var tImg = childSnapshot.val().img;
   	var tVid = childSnapshot.val().vid;
-// $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
+$("#tData").append("<tr><td>" + tName + "</td><td>" + tLocation + "</td><td>" + tDescription + "</td><td>" + tNumber + "</td><td>" + tImg + "</td></tr>" + tVid + "</td></tr>");
 });
   var directorInfo = firebase.database();
   $("#Rsubmitt").on("click", function(){
@@ -56,5 +56,5 @@
     var tRDescription = childSnapshot.val().Rdescription;
     var tRNumber = childSnapshot.val().Rnumber;
     var tREmail = childSnapshot.val().Remail;
-// $("#tData").append("<tr><td>" + tName + "</td><td>" + tDestination + "</td><td>" + tFrequency + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
+$("#tRData").append("<tr><td>" + RName + "</td><td>" + Rlocation + "</td><td>" + Rdescription + "</td><td>" + Rnumber + "</td><td>" + Remail + "</td></tr>");
 });
