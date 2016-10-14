@@ -118,11 +118,14 @@ img{
   border-radius: 5px;
 }
 
-#tData{
+#userContainer{
   border: 1px solid black;
   text-align: center;
   background-color: #B0C4DE;
   margin-top: 10px;
-  border-radius: 5px;
-  color: #F5FFFA;  
+  border-radius: 5px; 
+}
+#image{
+  float: left;
+  border: 1px solid black;
 }
