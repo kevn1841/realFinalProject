@@ -142,3 +142,10 @@ img{
   margin-top: 10px;
   border-radius: 5px;   
 }
+#homeButton1{
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 6px;
+  width: 30px;
+  background-color: #8FBC8F;
+}
