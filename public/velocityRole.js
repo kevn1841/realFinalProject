@@ -27,9 +27,9 @@ function Submit(){
 	$('#submit').velocity('transition.bounceRightIn')
 }
 setTimeout(showHeader, 1000);
-setTimeout(Name, 4000);
-setTimeout(Location, 5500);
-setTimeout(Bio, 7000);
-setTimeout(Phone, 8500);
-setTimeout(Email, 10000);
-setTimeout(Submit, 11500);
+setTimeout(Name, 2000);
+setTimeout(Location, 3000);
+setTimeout(Bio, 4000);
+setTimeout(Phone, 5000);
+setTimeout(Email, 6000);
+setTimeout(Submit, 7000);

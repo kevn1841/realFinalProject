@@ -106,8 +106,12 @@
 				function triggerButton(){
 					clickButton();
 				}
+				function relocate(){
+					window.location.replace("https://sheltered-journey-29034.herokuapp.com/actors-actresses");
+				}
 				function clickButton(){
 					$("#submitt").trigger("click");	
+					relocate();
 				}
 				clickSubmit();
 			</script>
