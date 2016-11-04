@@ -1,4 +1,3 @@
-// Initialize Firebase
   var config = {
     apiKey: "AIzaSyBb7Q5k8OeQt6dqANZrcnLJBB143Qa2Kqc",
     authDomain: "actsparkdirectors.firebaseapp.com",

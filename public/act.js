@@ -1,4 +1,3 @@
-// Initialize Firebase
   var config = {
     apiKey: "AIzaSyDsoWuFtZFI1XREXaGsByQBGoWTWX_qBZA",
     authDomain: "actspark-21d87.firebaseapp.com",
@@ -36,5 +35,5 @@
     userImage.attr('src', tImg);
     userImage.attr('height', 200);
     userImage.attr('width', 200);
-$("#tData").append("<tr><td>" + tName + "</td><td>" + tLocation + "</td><td>" + tDescription + "</td><td>" + tNumber + "</td><td>" + userImage + "</td></tr>");
+$("#tData").append("<tr><td>" + tName + "</td><td>" + tLocation + "</td><td>" + tDescription + "</td><td>" + tNumber + "</td></tr>" + userImage + "</img>");
 });
